@@ -28,3 +28,11 @@ input{
 h1{
     margin-bottom: 40px;
 }
+
+#submit{
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    margin-right: 8%;
+}
+
