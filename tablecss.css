@@ -1,0 +1,13 @@
+table,th,td{
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    padding: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: aqua;
+}

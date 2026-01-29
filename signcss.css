@@ -36,3 +36,15 @@ h1{
     margin-right: 8%;
 }
 
+#help{
+    position: fixed;
+    top: 70%;
+    left: 70%;
+}
+
+#but{
+    width: 7vw;
+    height: 7vh;
+}
+
+
