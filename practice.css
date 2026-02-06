@@ -30,7 +30,7 @@ margin: auto;
 }
 
 h1, .urgent{
-    text-align: center;
+    /* text-align: center; */
 }
 
 a{
@@ -39,9 +39,114 @@ a{
 }
 
 button:hover{
+    display: inline-block;
     background-color: yellow;
+    height: 1cm;
+    width: 3cm;
 }
 
 
+#contain{
+    width: 100%;
+    /* max-width: 1200px; */
+    position: relative;
+    margin-bottom: 10px;
+    height: 500px;
+}
 
+#zzz{
+    position: absolute;
+    left: 70px;
+    height: 500px;
+    z-index: -1;
+}
+
+#demo{
+    z-index: 1;
+    position: absolute;
+    left: 80px;
+    color: orange;
+    font-weight: bolder;
+}
+
+#floats{
+    width: 100%;
+  overflow: auto;
+}
+
+.float{
+  width: 33.33%;
+  float: left;
+}
+
+h6{
+    text-align: center;
+}
+
+#test::first-line{
+    color: beige;
+}
+
+
+li::marker{
+    color: red;
+}
+
+.container {
+  position: relative;
+  width: 100%; 
+  height: 10vh;
+  background-color: aliceblue;
+  text-align: left;
+}
+
+#burger {
+  display: inline-block;
+  font-size: 5vh;
+  max-height: 25px;
+  cursor: grabbing;
+  background: #eee;
+  position: absolute;
+  left: auto;
+  bottom: 0px;
+  width: 10px;
+}
+
+.pic{
+    height: 10vh;
+}
+
+.nav{
+  display: none;
+  position: absolute;
+  top: 50px; 
+  left: 0;
+  background: #eee;
+  width: 500px;
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
+
+.nav ul {
+  list-style: circle;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #ccc;
+  background-color: aliceblue;
+}
+
+#burger:hover + .nav{
+  display: block;
+}
+
+.nav:hover{
+  display: block;
+}
 
